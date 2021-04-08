@@ -55,3 +55,26 @@ footer{
 .right a{
     margin-right: 1em;
 }
+
+@media screen and (max-width:500px){
+    main img{
+        width: 90%;
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav a{
+        padding:0.3em;
+    }
+    footer .bottom .left{
+        display: flex;
+        flex-direction: column;
+    }
+    footer .bottom .right{
+        display: flex;
+        flex-direction: column;
+    }
+    .bottom a {
+        padding: 0.3em;
+    }
+}
