@@ -24,12 +24,20 @@ main{
     margin:6em auto;
     text-align: center;
 }
+.box{
+    width: 90%;
+    height:80%;
+    background-color: white;
+    border-radius: 30px;
+    border:solid 1px grey;
+}
 input{
     width: 80%;
     padding: 1em;
     border-radius: 30px;
-    border:1px solid grey;
-}
+    border:none;
+    outline: none;
+} 
 .button{
     margin:1em;
 }
@@ -37,6 +45,10 @@ input{
     padding:1em;
     border:none;
 }
+.box > i{
+
+}
+
 footer{
     background-color: rgb(240, 236, 236);
 }
@@ -77,4 +89,18 @@ footer{
     .bottom a {
         padding: 0.3em;
     }
+    .box{
+        width: 90%;
+        height:80%;
+        background-color: white;
+        border-radius: 30px;
+        border:solid 1px grey;
+    }
+    input{
+        width: 80%;
+        padding: 0.2em;
+        border-radius: 30px;
+        border:none;
+        outline: none;
+    } 
 }
